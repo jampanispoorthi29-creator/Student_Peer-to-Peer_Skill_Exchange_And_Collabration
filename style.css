@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background: #eaf1fc;
+  color: #122b44;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.app {
+  width: 1440px;
+  max-width: 100%;
+  background: white;
+  border-radius: 56px;
+  box-shadow: 0 40px 90px -20px #0b2c4460;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 96vh;
+}
+
+/* All your CSS from the original file (removed for brevity in this example) */
+/* Paste all your original CSS rules from <style> block here */
